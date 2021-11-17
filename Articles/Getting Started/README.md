@@ -16,7 +16,7 @@ As the lab builds progress, this section will expand with more content. Reader f
 
 General notes :
 
-1. When building out your lab host, specify the locations explicity where your virtual machines should be build, or AutomatedLab will decide for you with unintended consequences. Use the `-VmPath `parameter on the `New-LabDefinition` cmdlet.
+1. When building out your lab host, specify the locations explicity where your virtual machines should be build, or AutomatedLab will decide for you with unintended consequences. Use the `-VmPath `parameter on the `New-LabDefinition` cmdlet to specify where your VMs are to be created.
 
 2. Automated lab does a lot for you, including transparently authenticating your hyper-v client sessions. Don't use the defaults, rather depart from the Automated Lab model and Enable Enhanced Session Mode on the Host using the following PowerShell command
         `Set-VMHost -EnableEnhancedSessionMode $True`
