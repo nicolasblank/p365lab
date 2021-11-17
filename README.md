@@ -6,4 +6,4 @@ The files in this repository represent labs built by [Practical 365 Author Nicol
 These labs are built using [AutomatedLab](https://github.com/AutomatedLab/AutomatedLab) unless specified.
 
 
-When you build your AutomatedLab setup for the first time DO NOT use the MSI installer, rather install from the PowerShell Gallery using the cmdlet Install-Module. 
+Please refer to the  [Getting Started Section](https://github.com/nicolasblank/p365lab/blob/main/Articles/Getting%20Started/README.md) for more notes on how to get started. 
